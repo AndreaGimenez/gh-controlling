@@ -2,7 +2,7 @@ name: Reusable deploy
 on:
   workflow_call:
     inputs:
-      artifacts-name:
+      artifact-name:
         description: the name of the deployable actifact files
         required: false
         default: dist
